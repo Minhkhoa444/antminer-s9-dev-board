@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+
+<ip_presets schema="1.0">
+  <ip_preset preset_proc_name="ps7_preset"> 
+    <ip vendor="xilinx.com" library="ip" name="processing_system7" version="*"> 
+      <user_parameters>
+        <user_parameter name="CONFIG.PCW_PRESET_BANK0_VOLTAGE" value="LVCMOS 3.3V"/>
+        <user_parameter name="CONFIG.PCW_PRESET_BANK1_VOLTAGE" value="LVCMOS 2.5V"/>
+        <user_parameter name="CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ" value="125"/>
+        <user_parameter name="CONFIG.PCW_FCLK0_PERIPHERAL_CLKSRC" value="ARM PLL"/>
+        <user_parameter name="CONFIG.PCW_UART0_PERIPHERAL_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_UART0_UART0_IO" value="MIO 34 .. 35"/>
+        <user_parameter name="CONFIG.PCW_UART0_BAUD_RATE" value="115200"/>
+        <user_parameter name="CONFIG.PCW_SD0_PERIPHERAL_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_SD0_SD0_IO" value="MIO 40 .. 45"/>
+        <user_parameter name="CONFIG.PCW_NAND_PERIPHERAL_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_NAND_GRP_D8_ENABLE" value="0"/>
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_AR" value="15" />
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_CLR" value="15" />
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_RC" value="30" />
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_REA" value="5" />
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_RR" value="25" />
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_WC" value="30" />
+        <user_parameter name="CONFIG.PCW_NAND_CYCLES_T_WP" value="15" />
+        <user_parameter name="CONFIG.PCW_NAND_NAND_IO" VALUE="MIO 0 2.. 14" />
+        <user_parameter name="CONFIG.PCW_ENET0_PERIPHERAL_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_ENET0_ENET0_IO" value="MIO 16 .. 27"/>
+        <user_parameter name="CONFIG.PCW_ENET0_GRP_MDIO_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_ENET0_GRP_MDIO_IO" value="MIO 52 .. 53"/> 
+        <user_parameter name="CONFIG.PCW_ENET_RESET_ENABLE" value="1"/> 
+        <user_parameter name="CONFIG.PCW_ENET_RESET_SELECT" value="Share reset pin"/> 
+        <user_parameter name="CONFIG.PCW_ENET0_RESET_ENABLE" value="1"/> 
+        <user_parameter name="CONFIG.PCW_ENET0_RESET_IO" value="MIO 9"/> 
+        <user_parameter name="CONFIG.PCW_ENET0_PERIPHERAL_FREQMHZ" value="1000 Mbps"/>
+        <user_parameter name="CONFIG.PCW_GPIO_MIO_GPIO_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_GPIO_MIO_GPIO_IO" value="MIO"/>
+        <user_parameter name="CONFIG.PCW_ENET_RESET_ENABLE" value="0"/>
+        <user_parameter name="CONFIG.PCW_USB_RESET_ENABLE" value="0"/>
+        <user_parameter name="CONFIG.PCW_I2C_RESET_ENABLE" value="0"/>
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_ENABLE" value="1"/>
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_MEMORY_TYPE" value="DDR 3"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_ECC" value="Disabled"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BUS_WIDTH" value="32 Bit"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BL" value="8"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_PARTNO" value="Custom"/>
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_HIGH_TEMP" value="Normal (0-85)"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DRAM_WIDTH" value="16 Bits"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DEVICE_CAPACITY" value="2048 MBits"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_SPEED_BIN" value="DDR3_1600K"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BANK_ADDR_COUNT" value="3"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_ROW_ADDR_COUNT" value="14"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_COL_ADDR_COUNT" value="10"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_CL" value="11"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RCD" value="11"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RP" value="11"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_CWL" value="8"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RC" value="48.75"/>
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RAS_MIN" value="35"/>
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_FAW" value="40"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_USE_INTERNAL_VREF" value="0"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_TRAIN_WRITE_LEVEL" value="1"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_TRAIN_READ_GATE" value="1"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_TRAIN_DATA_EYE" value="1"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_CLOCK_STOP_EN" value="0"/> 
+        <user_parameter name="CONFIG.PCW_UIPARAM_DDR_ROW_ADDR_COUNT" value="14"/> 
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="leds_4bits_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="4"/> 
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x0000000F"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+</ip_presets>
